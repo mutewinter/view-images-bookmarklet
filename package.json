@@ -1,0 +1,21 @@
+{
+  "name": "view-images-bookmarklet",
+  "version": "1.0.0",
+  "description": "A bookmarklet to find all the images on a page and show them to you in a new window for easy viewing and downloading.",
+  "main": "index.js",
+  "dependencies": {
+    "bookmarklet": "^1.0.4"
+  },
+  "devDependencies": {
+    "netlify-cli": "^2.58.0"
+  },
+  "scripts": {
+    "build": "bookmarklet ./index.js > bookmarklet.js",
+    "deploy": "netlify deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutewinter/view-images-bookmarklet.git"
+  },
+  "homepage": ""
+}
