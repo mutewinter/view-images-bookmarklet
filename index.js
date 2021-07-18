@@ -1,10 +1,5 @@
 (function () {
   !(function () {
-    const newWindow = window.open("");
-    newWindow.document.write(
-      "<head><title>All Images</title></head><body class='gallery'></body>"
-    );
-
     function deepCss(e, t) {
       if (!e || !e.style) return "";
       const r = t.replace(/\-([a-z])/g, function (_e, t) {
@@ -50,6 +45,10 @@
         );
       }
     });
+
+    document.write(
+      "<head><title>All Images</title></head><body class='gallery'></body>"
+    );
 
     if (urls.length > 0) {
       newWindow.document.write("<p>HTML tag images</p><br>");
