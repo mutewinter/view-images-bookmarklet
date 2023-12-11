@@ -1,6 +1,6 @@
 # view-images-bookmarklet
 
-[Get the bookmarklet](https://view-images-bookmarklet.netlify.app)
+[Get the bookmarklet](https://mutewinter.github.io/view-images-bookmarklet/)
 
 A bookmarklet to find all the images on a page and show them to you in a new
 window for easy viewing and downloading.
